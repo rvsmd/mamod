@@ -1,0 +1,37 @@
+{
+  "name": "mamod_test",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "setup": "npm install --legacy-peer-deps",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "sass": "^1.66.1",
+    "vue": "2.6.12",
+    "vue-router": "3.4.9",
+    "vue-select": "3.11.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-plugin-eslint": "^5.0.8",
+    "@vue/cli-plugin-router": "^5.0.8",
+    "@vue/cli-plugin-vuex": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
+    "babel-eslint": "^10.1.0",
+		"eslint": "^7.32.0",
+		"eslint-config-prettier": "^9.0.0",
+		"eslint-loader": "^4.0.2",
+		"eslint-plugin-prettier": "^5.0.0",
+		"eslint-plugin-vue": "^9.17.0",
+		"eslint-webpack-plugin": "^4.0.1",
+    "postcss": "^8.4.35",
+		"prettier": "^3.0.2",
+		"prettier-eslint": "^15.0.1",
+    "sass": "1.32.*",
+    "sass-loader": "^10.1.0",
+    "vue-template-compiler": "2.6.12"
+  }
+}

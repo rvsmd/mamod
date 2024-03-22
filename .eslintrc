@@ -1,0 +1,55 @@
+{
+    "root": false,
+    "env": {
+      // Проект для браузера
+      "browser": true,
+      // Включаем возможности ES6
+      "es6": true,
+      // Добавляем возможности ES2017
+      "es2017": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "plugin:vue/recommended",
+      "plugin:prettier/recommended"
+    ],
+    "plugins": [
+      // "prettier"
+    ],
+    "rules": {
+      "no-console": "warn",
+      "no-debugger": "warn",
+  
+      // Best Practices
+      "eqeqeq": "error",
+      "no-invalid-this": "error",
+      "no-useless-return": "error",
+  
+      // Variable
+      "no-use-before-define": "error",
+      "no-shadow": "off",
+      "vue/no-template-shadow": "off",
+      "vue/no-v-html": "off",
+	    "vue/no-deprecated-model-definition": "off",
+  
+      // ES6
+      "arrow-spacing": "error",
+      "no-duplicate-imports": "error",
+      "prefer-const": "error",
+      "prettier/prettier": [
+          "error",
+          {
+            "endOfLine": "lf",
+            "tabWidth": 4,
+            "useTabs": true,
+            "printWidth": 130
+          }
+      ]
+    },
+    "parser": "vue-eslint-parser",
+    "parserOptions": {
+        "parser": "babel-eslint",
+        "sourceType": "module"
+    }
+  }
+  
